@@ -212,3 +212,13 @@ An easy fix is just to ensure you use a version of Python that has a dylib of th
   # Success!
 
 Alternatively, you can download and install Python directly from the `Python website <https://www.python.org/>`__.
+or
+pip3 install --upgrade pip
+pip3 install apache-airflow
+
+After installation is complete, run
+airflow standalone
+
+once everything runs fine, scroll a little up, just below "Airflow is running" shows your username and password for Admin role use
+
+In this case, your default installation folder will be root (~)
